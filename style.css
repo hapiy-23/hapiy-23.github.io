@@ -1,0 +1,207 @@
+
+@charset "utf-8";
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #cccccc;
+    color: #333333;
+    font-size: 15px;
+    line-height: 2;
+    font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+
+p,h1,h2,h3,h4,h5,h6 {
+    margin: 0
+}
+
+img {
+    vertical-align: bottom;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+a:visited {
+    color: navy;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    width: 960px;
+    height: 170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+header a {
+    color: red;
+    font-size: 18px;
+}
+
+header a:hover {
+    border-bottom: 2px solid grey;
+    text-decoration: none;
+}
+
+header a:visited {
+    color:red;
+}
+
+
+
+.global-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.global-nav li {
+    margin: 0 20px;
+    font-size: 18px;
+    list-style: none;
+}
+
+.global-nav li a {
+    color: red;
+}
+
+.global-nav li a:hover {
+    border-bottom: 2px solid grey;
+    padding-bottom: 8px;
+    text-decoration: none;
+}
+
+.main {
+    width: 960px;
+    margin: 0 auto;
+}
+
+footer {
+    text-align: center;
+    color: red;
+    padding: 20px 0;
+}
+
+footer small {
+    font-size: 12px;
+}
+
+
+/* ------ フルスクリーンページここから ------ */
+
+#top h1 {
+    font-size: 95px;
+    line-height: 1.2;
+    color: red;
+    text-align: right;
+    margin: 100px 0 40px 0;
+}
+
+#top p {
+    font-size: 16px;
+    color: red;
+    text-align: right;
+    padding-right: 190px;
+}
+
+.btn {
+    background-color: grey;
+    color: navy;
+    font-size: 20px;
+    width: 200px;
+    display: block;
+    margin-left: 605px ;
+    margin-top: 50px;
+    padding: 5px 0;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid gray;
+}
+
+.btn:hover {
+    text-decoration: none;
+    background-color: navy;
+    color: gray;
+}
+
+#top footer {
+    margin-top: 200px;
+    margin-left: 465px; 
+}
+
+#top {
+    height: 100%;
+    background-image: url(images/bg-body.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+
+/* ------ 画面サイズが600px以下の場合に適用 ------ */
+
+@media screen and (max-width: 600px) {
+    
+    body {
+        font-size: 3.5vw;
+    }
+
+    
+    h1 {
+        font-size: 7.2vw;
+    }
+
+    h2 {
+        font-size: 6vw;
+    }
+    
+    header {
+        width: auto;
+        height: 230px;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    .logo {
+        margin-top: 20px;
+   }
+    
+    .main {
+        width: 90%;
+        flex-direction: column;
+    }
+    
+    .contents-area,
+    .side-area {
+        width: 100%;
+        padding: 15px 25px;
+    }
+    
+    .contents-area img {
+        max-width: 100%;
+    }
+    
+    .contents-area {
+        margin-bottom: 20px;
+    }
+
+    #body{
+        background-position: center center;
+    }
+}
