@@ -219,7 +219,11 @@ footer{
 
 
 @media(max-width:670px){
-      .face{
+    #top,#profile,#pr,#career,#record{
+        width:100%;
+    }
+    
+    .face{
         border-radius: 50%;
         float: right;
         margin-right: 100px;
