@@ -48,7 +48,7 @@ a:hover {
 #top{
     background-color: rgba(135, 207, 235, 0.555);
     margin: 0 auto;
-    width: 100%;
+    width: 1170px;
     height: 600px;
 }
 
@@ -142,7 +142,7 @@ h1{
     width: 180px;
     height: 180px;
     background-size: cover;
-    margin-top: -200px;
+    margin-top: -400px;
 }
 
 .content3{
