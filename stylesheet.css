@@ -42,6 +42,7 @@ a:hover {
 .wrap{
     background-color: white;
     height: auto;
+    width:100%;
 }
 
 #top{
