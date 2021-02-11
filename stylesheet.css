@@ -42,13 +42,12 @@ a:hover {
 .wrap{
     background-color: white;
     height: auto;
-    width:100%yt6
 }
 
 #top{
     background-color: rgba(135, 207, 235, 0.555);
     margin: 0 auto;
-    width: 1170px;
+    width: 100%;
     height: 600px;
 }
 
@@ -142,7 +141,7 @@ h1{
     width: 180px;
     height: 180px;
     background-size: cover;
-    margin-top: -800px;
+    margin-top: -200px;
 }
 
 .content3{
@@ -216,4 +215,36 @@ footer{
 }
 
 
+@madia(max-width:670px){
+    .global-nav{
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flexwrap:flex;
+        position: fixed;
+        top: 0px;
+        z-index: 10;
+        background-color: skyblue;
+    }
 
+    .global-nav li{
+        flex: auto;
+        width:50%;
+        text-align: center;
+    }
+    
+    .wrap{
+        widht:100%;
+        height: auto;
+    }
+    
+    .face{
+        border-radius: 50%;
+        float: right;
+        margin-right: 100px;
+        width: 180px;
+        height: 180px;
+        background-size: cover;
+        margin-top: -900px;
+    }
+}
