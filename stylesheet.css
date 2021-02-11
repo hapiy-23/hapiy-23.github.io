@@ -218,7 +218,7 @@ footer{
 
 
 
-@media(max-widht:670px){
+@media(max-width:670px){
       .face{
         border-radius: 50%;
         float: right;
