@@ -116,7 +116,7 @@ p{
     justify-content: space-between;
     padding-top: 50px;
     background-color: #eaeaea;
-    padding: 20px 30px;
+    padding: 20px 10px;
     margin: 40px 0;
 }
 
@@ -130,8 +130,8 @@ p{
 
 img{
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     background-position: bottom;
     background-size: cover;
     padding: 0 40px 0 50px;
