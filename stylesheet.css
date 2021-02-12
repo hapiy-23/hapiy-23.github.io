@@ -168,7 +168,6 @@ h1{
     padding: 0 100px 0 0;
     font-size: 13px;
     line-height: 40px;
-
 }
 
 .content4{
@@ -222,6 +221,23 @@ footer{
     #top,#profile,#pr,#career,#record{
         width:100%;
     }
+
+    .global-nav{
+        width: 100%;
+        margin: 0 auto;
+        position: fixed;
+        top: 0px;
+        z-index: 10;
+        background-color: skyblue;
+        display: flex;
+        flex-wrap: wrap; 
+    }
+    
+    .global-nav li{
+        width: 20%;
+        flex: auto;
+        text-align: center;
+    }
     
     .face{
         border-radius: 50%;
@@ -230,6 +246,53 @@ footer{
         width: 180px;
         height: 180px;
         background-size: cover;
-        margin-top: -350px;
+        margin-top: -460px;
     }
+
+    .section{
+        margin: 0 auto;
+        margin-top: 180px;
+    }
+
+    .section p{
+        color: #333333;
+        font-size: 13px;
+        padding:0 10px;
+    }
+
+    .content2{
+        margin: 0 auto;
+        margin-top: 0px;
+    }
+
+    .content3,.content4,.content5{
+        margin-top: -220px;
+    }
+
+    .p-right{
+        width: 380px;
+        margin: 0 auto;
+        margin-top: 180px; 
+    }
+
+    .p-right p{
+        text-align:left;
+        color: #333333;
+        font-size: 13px;
+        padding:0 10px;   
+    }
+
+    .p-left{
+        width: 380px;
+        margin: 0 auto;
+        margin-top: 180px; 
+    }
+
+    .p-left p{
+        text-align:left;
+        color: #333333;
+        font-size: 13px;
+        padding:0 10px;   
+    }
+
 }
