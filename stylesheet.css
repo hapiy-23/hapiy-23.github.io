@@ -199,6 +199,24 @@ footer small {
     .contents-area {
         margin-bottom: 20px;
     }
+    
+    .btn {
+    background-color: grey;
+    color: navy;
+    font-size: 20px;
+    width: 200px;
+    display: block;
+    margin-left: 500px ;
+    margin-top: 50px;
+    padding: 5px 0;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid gray;
+    }
+    
+    #top footer {
+    margin:0 auto;
+    }
 
     #body{
         background-position: center center;
